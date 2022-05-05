@@ -5,12 +5,16 @@
   import Background from "$lib/components/Background.svelte";
   import BackgroundColor from "$lib/components/BackgroundColor.svelte";
 
-  import "$lib/locale/index.ts";
+  import { initLocale } from "$lib/locale";
   import { waitLocale } from "svelte-i18n";
 
-  export async function preload() {
+  export async function load() {
     // awaits for the loading of the 'en-US' and 'en' dictionaries
-    return waitLocale();
+    initLocale();
+
+    await waitLocale();
+
+    return true;
   }
 </script>
 

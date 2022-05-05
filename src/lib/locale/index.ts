@@ -1,9 +1,11 @@
 import { register, init, getLocaleFromNavigator } from "svelte-i18n";
 
-register("en", () => import("./en"));
-register("tr", () => import("./tr"));
+export function initLocale() {
+  register("en", () => import("./en"));
+  register("tr", () => import("./tr"));
 
-init({
-  fallbackLocale: "en",
-  initialLocale: getLocaleFromNavigator(),
-});
+  init({
+    fallbackLocale: "en",
+    initialLocale: getLocaleFromNavigator(),
+  });
+}

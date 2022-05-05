@@ -127,7 +127,7 @@
             </h4>
             <p class="text-base-600 mb-8">
               {$_("home.p3.text")}<Link
-                href="/wiki"
+                href="/guide"
                 customClass="font-bold text-primary-400"
                 >{$_("home.p3.link")}</Link
               >
