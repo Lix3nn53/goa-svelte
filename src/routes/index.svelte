@@ -18,6 +18,10 @@
   }
 </script>
 
+<svelte:head>
+  <title>Guardians of Adelia - Dungeon driven Minecraft MMORPG</title>
+</svelte:head>
+
 <div class="w-full flex flex-col items-center">
   <!-- Section 1 -->
   <div class="hero py-16">

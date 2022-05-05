@@ -18,7 +18,7 @@
     min-height: 880px;
     height: 880px;
     z-index: -1;
-    background: url("/img/poster2.jpg") bottom no-repeat;
+    background: url("/img/poster2.webp") bottom no-repeat;
     background-size: cover;
   }
 

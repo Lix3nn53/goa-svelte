@@ -3,7 +3,7 @@
   export let text = "Click";
   export let btnCustomClass = "";
 
-  let btnClass = `btn btn-ghost ${btnCustomClass}`;
+  let btnClass = `btn btn-ghost flex-nowrap ${btnCustomClass}`;
 </script>
 
 <div class="dropdown">

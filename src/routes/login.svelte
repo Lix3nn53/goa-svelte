@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Guardians of Adelia - Guide</title>
+  <title>Guardians of Adelia - Login</title>
 </svelte:head>
 
-<p>Guide</p>
+<p>Login</p>
