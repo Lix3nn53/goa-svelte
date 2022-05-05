@@ -1,0 +1,18 @@
+{
+  "subject": "Ekonomi",
+  "guide": {
+    "p0": "Adelia'nın ana para birimi madeni paradır.",
+    "h1": "Madeni Paralar",
+    "p1": "3 çeşit madeni para vardır: bronz, gümüş ve altın. 64 bronz = 1 gümüş, 64 gümüş = 1 altın. Tüccarlardan jetonlar arasında dönüştürme yapabilirsiniz.",
+    "h2": "Almak",
+    "p2": "Bir ürünü satın alırken son satırda fiyatını göreceksiniz. Satın almak için çift tıklamanız gerekmektedir.",
+    "h3": "Satmak",
+    "p3": "Tüccarlara ürün satabilirsiniz. Altta alacağınız toplam madeni paraları görebilirsiniz. Tamamlamak için sağ alttaki yüne çift tıklayın.",
+    "h4": "Ticaret",
+    "p4": "Bir takas daveti göndermek için başka bir oyuncuya SHIFT + SAĞ tıklayabilirsiniz.",
+    "h5": "Pazar",
+    "p5": "Menüden bir pazar oluşturabilirsiniz. Diğer oyuncular SOL tıklayarak pazarınızı açabilirler. Satıştaki eşyalarınız ve kazançlarınız koruma amaçlı olarak pazar deponuzda saklanır.",
+    "h6": "Günlük Ödüller",
+    "p6": "Menüden günlük ödülleri görebilirsiniz. Bugünün ödülünü almak için dünün ödülünü almış olmalısınız. Günlük ödüller haftalık olarak sıfırlanır."
+  }
+}

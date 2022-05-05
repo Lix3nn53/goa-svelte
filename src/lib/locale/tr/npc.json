@@ -1,0 +1,27 @@
+{
+  "subject": "NPC'ler",
+  "merchants": "Tüccarlar",
+  "guide": {
+    "p0": "NPC'ler (Oyuncu olmayan karakterler) görev alabildiğiniz veya alışveriş yapabilidiğiniz herhangi bir karakterdir. Oyuncular tarafından kontrol edilemez — sunucu tarafından oluşturulur ve kontrol edilirler. ",
+    "p1": "Oyuncu tipi NPC'ler genelde görev verirken, köylü tipi NPC'ler genelde tüccardırlar. Onlara sağ tıklayarak etkileşime girebilirsiniz.",
+    "merchant": {
+      "p0": "Tüccarlar, eşya alıp satabileceğiniz NPC'lerdir. 5 çeşit tüccar vardır: Silah ustası, zırh ustası, depo bekçisi, alet tüccarı ve büyülü eşya tüccarı. Her türden tüccara ürün satabilir ve madeni paralara dönüştürebilirsiniz. ",
+      "h1": "Silah Ustası",
+      "p1": {
+        "part1": "Silah satın alabilir ve büyülü eşyalar satın alabilmenin dışında eşyalarınızı satabilir veya para işlemlerinizi yapabilirsiniz. Daha fazla bilgi için ",
+        "part2": "'a bakınız."
+      },
+      "h2": "Zırh Ustası",
+      "p2": {
+        "part1": "Zırh, kalkan satın alabilir ve efsunlu eşyalar satın alabilmenin dışında eşyalarınızı satabilir veya para işlemlerinizi yapabilirsiniz. Daha fazla bilgi için ",
+        "part2": "'a bakınız."
+      },
+      "h3": "Depo Bekçisi",
+      "p3": "Eşyalarınızı satabilmeniz ve para işlemleri yapabilmeniz dışında depolarınızı kullanabilirsiniz. 4 çeşit depo vardır: Kişisel depo, lonca deposu, pazar deposu ve premium deposu.",
+      "h4": "Alet Tüccarı",
+      "p4": "Meslek eşyalarınızı satın alabilir veya utility items satın alabilmeniz dışında eşyalarınızı satabilir veya para işlemlerinizi yapabilirsiniz.",
+      "h5": "Büyülü Eşya Tüccarı",
+      "p5": "İksir satın alabilmeniz dışında eşyalarınızı satabilir veya para işlemlerinizi yapabilirsiniz."
+    }
+  }
+}

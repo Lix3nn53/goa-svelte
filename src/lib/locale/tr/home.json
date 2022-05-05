@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "h1": "Dungeon driven",
+    "h2": "Minecraft MMORPG",
+    "b2": "Join out community!"
+  },
+  "h1": "Destansı Bir Fantastik Macera.",
+  "p1": "Sürükleyici bir mücadeleyi deneyimle. Bir gardiyan olarak, Adelia'nın Topraklarını keşfet ve rakiplerini elementlerin gücüyle yerle bir et. ",
+  "h2": "Zorlu Zindanlar",
+  "p2": "Adelia'nın diyarları zindanlardan gelen karanlık tarafından kül edilmiş. Boss ile savaşıp ödül kazanmak için partinle zindan geçitlerine gir.",
+  "h3": "Ve daha fazlası!",
+  "p3": {
+    "text": "Guardians of Adelia'da çok daha fazlası var, ve hala geliştiriyoruz! Rehbere göz at ve oynamaya başla yada daha fazlasını öğren: ",
+    "link": "Rehber"
+  }
+}

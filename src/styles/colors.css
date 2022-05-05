@@ -1,0 +1,106 @@
+:root {
+    --color-primary-50: #F7FEE7;
+    --color-primary-100: #ECFCCB;
+    --color-primary-200: #D9F99D;
+    --color-primary-300: #BEF264;
+    --color-primary-400: #A3E635;
+    --color-primary-500: #84CC16;
+    --color-primary-600: #65A30D;
+    --color-primary-700: #4D7C0F;
+    --color-primary-800: #3F6212;
+    --color-primary-900: #365314;
+
+    --color-secondary-50: 255 251 235;
+    --color-secondary-100: 254 243 199;
+    --color-secondary-200: 253 230 138;
+    --color-secondary-300: 252 211 77;
+    --color-secondary-400: 251 191 36;
+    --color-secondary-500: 245 158 11;
+    --color-secondary-600: 217 119 6;
+    --color-secondary-700: 180 83 9;
+    --color-secondary-800: 146 64 14;
+    --color-secondary-900: 120 53 15;
+
+    --color-danger-50: #FEF2F2;
+    --color-danger-100: #FEE2E2;
+    --color-danger-200: #FECACA;
+    --color-danger-300: #FCA5A5;
+    --color-danger-400: #F87171;
+    --color-danger-500: #EF4444;
+    --color-danger-600: #DC2626;
+    --color-danger-700: #B91C1C;
+    --color-danger-800: #991B1B;
+    --color-danger-900: #7F1D1D;
+    
+    --color-primary-50: 247 254 231;
+    --color-primary-100: 236 252 203;
+    --color-primary-200: 217 249 157;
+    --color-primary-300: 190 242 100;
+    --color-primary-400: 163 230 53;
+    --color-primary-500: 132 204 22;
+    --color-primary-600: 101 163 13;
+    --color-primary-700: 77 124 15;
+    --color-primary-800: 63 98 18;
+    --color-primary-900: 54 83 20;
+    
+    --color-secondary-50: 255 250 235;
+    --color-secondary-100: 255 245 214;
+    --color-secondary-200: 255 235 173;
+    --color-secondary-300: 255 224 133;
+    --color-secondary-400: 255 214 92;
+    --color-secondary-500: 255 204 51;
+    --color-secondary-600: 250 187 0;
+    --color-secondary-700: 194 145 0;
+    --color-secondary-800: 138 103 0;
+    --color-secondary-900: 82 61 0;
+
+    --color-danger-50: 239 227 215;
+    --color-danger-100: 232 213 198;
+    --color-danger-200: 219 180 166;
+    --color-danger-300: 206 140 133;
+    --color-danger-400: 193 100 107;
+    --color-danger-500: 176 71 96;
+    --color-danger-600: 151 61 97;
+    --color-danger-700: 125 50 93;
+    --color-danger-800: 100 40 84;
+    --color-danger-900: 74 30 70;
+
+    /* REVERSE OF DARK THEME */
+    --color-base-50: 248 250 252;
+    --color-base-100: 241 245 249;
+    --color-base-200: 226 232 240;
+    --color-base-300: 203 213 225;
+    --color-base-400: 148 163 184;
+    --color-base-500: 100 116 139;
+    --color-base-600: 71 85 105;
+    --color-base-700: 51 65 85;
+    --color-base-800: 30 41 59;
+    --color-base-900: 15 23 42;
+}
+
+/* THEMES */
+
+.dark {
+    /* REVERSE OF LIGHT THEME */
+    --color-base-50: #f9fafb;
+    --color-base-100: #f1f5f9;
+    --color-base-200: #e2e8f0;
+    --color-base-300: #cbd5e1;
+    --color-base-400: #94a3b8;
+    --color-base-500: #64748b;
+    --color-base-600: #475569;
+    --color-base-700: #334155;
+    --color-base-800: #1e293b;
+    --color-base-900: #0f172a;
+
+    --color-base-50: 15 23 42;
+    --color-base-100: 30 41 59;
+    --color-base-200: 51 65 85;
+    --color-base-300: 71 85 105;
+    --color-base-400: 100 116 139;
+    --color-base-500: 148 163 184;
+    --color-base-600: 203 213 225;
+    --color-base-700: 226 232 240;
+    --color-base-800: 241 245 249;
+    --color-base-900: 248 250 252;
+}

@@ -1,0 +1,18 @@
+{
+  "subject": "Zindanlar",
+  "guide": {
+    "p0": "Zindanlar 4 oyuncuyu Adelia'nın en karanlık köşelerine götürür. Zindanlar her zaman bir ve ya daha fazla patron içerir, Çokça düşman ve hazine içerir.",
+    "h1": "Portallar",
+    "p1": "Her zindan bir portala sahiptir SOL tık tuşuyla etkileşime geçebilirsiniz. Zindana katılma menüsü etkileşime geçtiğinizde açılacaktır.",
+    "h2": "Katılma Menüsü",
+    "p2": "Her zindan 4 farklı odaya sahiptir Eğer başlamadıysa bunlardan birine katılabilirsin. Zindan hakkında bilgilere bakabilirsin ; gereken seviye, süre kısıtlaması ve boss'un Zayıflıkları & Dayanınklılıkları hakkında bilgi edinebilirsin. Zindana 1 kişi katıldığında geri sayım başlar, geri sayım bitmeden önce 3 kişi daha katılabilir. Eğer minimum bir oyuncu varsa geri sayım bittiğinde zindan başlar.",
+    "h3": "Skor Tablosu",
+    "p3": "Zindan başladığında Skor Tablosu belirir. Patronun ismini görebilirsin, kalan zaman saniye ile belirtilir, 'Karanlık', kalan odalar ve parti üyelerinin kalan sağlıkları.",
+    "h4": "Karanlık",
+    "p4": "Zindanda kaldığın süre boyunca, 'Karanlık' seni ele geçirmeye başlar. 'Karanlık' yükseldikçe daha az hasar verirsin., daha çok hasar alırsın, ve yaratıklar gittikçe güçlenmeye başlar. Yani Patron'un odasına ne kadar hızlı varabilirsen o kadar iyi.",
+    "h5": "Odalar",
+    "p5": "Zindan odaları, yaratık doğurucuları ve dalgalar bulundurur. Eğer dalgadaki bütün yaratıkları öldürürsen, diğer dalga başlar. Eğer odadaki bütün dalgaları tamamlarsan, bölüm tamamlanır ve kapı açılır.",
+    "h6": "Ödüller",
+    "p6": "Zindandaki patronu öldürdüğünüzde zindan tamamlanır ve 4 ödül sandığı ortaya çıkar. Ödül sandıklarını açabilmen için anahtara ihtiyacın var. İlk anahtarı patronu öldürdüğünde kazanırsın, ikinci anahtarı ise 'Karanlık' %70'den az ise elde edersin, Üçüncü anahtar bütün odalar bitince elde edilir.Eğer elinizde anahtar var iken ödül sandığına SOL tıklarsanız sandığı elde edersiniz. Eğer sandığa hedef alıp SAĞ tıklarsanız, rastgele bir eşya kazanırsınız. 6 farklı tipte ödül sandığı bulunmakta: Yakın Dövüş & Menzilli Silahlar, Ağır & hafif zırh, Mücevher ve evcil hayvan."
+  }
+}

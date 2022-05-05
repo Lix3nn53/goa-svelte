@@ -1,0 +1,133 @@
+<script lang="ts">
+	export let type: 'button' | 'menu' | 'reset' | 'submit';
+	export let disabled = false;
+	export let style: 'primary' | 'secondary' | 'base' = 'primary';
+	export let customClass = '';
+
+	let className = `button ${style} ${customClass}`;
+</script>
+
+<button on:click class={className} {type} {disabled}>
+	<div class="button-content"><slot /></div>
+</button>
+
+<style>
+	.button {
+		color: var(--color-white);
+		border: none;
+		padding: 0;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-weight: 600;
+		position: relative;
+		display: inline-block;
+		border-top-right-radius: 12px;
+		border-bottom-left-radius: 12px;
+		box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+		cursor: pointer;
+	}
+
+	button:disabled {
+		cursor: default;
+	}
+
+	.button-content {
+		display: block;
+		transform: translate(6px, -6px);
+		transition: all 0.2s ease;
+		position: relative;
+		z-index: 10;
+		border-top-right-radius: 12px;
+		border-bottom-left-radius: 12px;
+		padding-top: 19px;
+		padding-right: 34px;
+		padding-bottom: 21px;
+		padding-left: 34px;
+	}
+
+	.button:before,
+	.button:after {
+		content: '';
+		display: block;
+		width: 8px;
+		height: 8px;
+		position: absolute;
+		transition: all 0.2s ease;
+	}
+
+	.button:before {
+		top: 0;
+		left: 0;
+		transform-origin: top left;
+		transform: rotate(-45deg) scale(1);
+	}
+
+	.button:after {
+		right: 0;
+		bottom: 0;
+		transform-origin: bottom right;
+		transform: rotate(45deg) scale(1);
+	}
+
+	.button:hover .button-content {
+		transform: translate(4px, -4px);
+	}
+
+	.button:hover:before {
+		transform: rotate(-45deg) scale(0.66);
+	}
+
+	.button:hover:after {
+		transform: rotate(45deg) scale(0.66);
+	}
+
+	.button:active .button-content {
+		transform: translate(0, 0);
+	}
+
+	.button:active:before {
+		transform: rotate(-45deg) scale(0);
+	}
+
+	.button:active:after {
+		transform: rotate(45deg) scale(0);
+	}
+
+	.button-primary,
+	.button-primary:before,
+	.button-primary:after {
+		background-color: var(--color-primary-darker);
+	}
+
+	.button-primary:disabled,
+	.button-primary:disabled:before,
+	.button-primary:disabled:after {
+		background-color: var(--color-base-light);
+	}
+
+	.button-secondary,
+	.button-secondary:before,
+	.button-secondary:after {
+		background-color: var(--color-secondary-darker);
+	}
+
+	.button-secondary:disabled,
+	.button-secondary:disabled:before,
+	.button-secondary:disabled:after {
+		background-color: var(--color-base-light);
+	}
+
+	.button-primary .button-content {
+		background-color: var(--color-primary);
+	}
+
+	.button-primary:disabled .button-content {
+		background-color: var(--color-divider);
+	}
+
+	.button-secondary .button-content {
+		background-color: var(--color-secondary);
+	}
+</style>

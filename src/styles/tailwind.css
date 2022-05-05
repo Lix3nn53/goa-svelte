@@ -1,0 +1,12 @@
+@import-normalize;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    @layer base {
+        html {
+            scroll-behavior: smooth;
+        }
+    }
+}

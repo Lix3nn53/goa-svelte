@@ -1,0 +1,14 @@
+{
+  "guide": "Rehber",
+  "news": "Haberler",
+  "map": "Harita",
+  "store": "Market",
+  "login": "Giriş Yap",
+  "register": "Kayıt Ol",
+  "profile": "Profile",
+  "player": "Player",
+  "characters": "Characters",
+  "credits": "Credits",
+  "buy_credits": "Buy Credits",
+  "logout": "Logout"
+}
