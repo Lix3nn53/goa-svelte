@@ -41,7 +41,7 @@
           <li>
             <Link
               href={`/${route}`}
-              customClass="text-primary-400 hover:no-underline"
+              customClass="text-primary-400 font-semibold hover:no-underline"
               >{route.charAt(0).toUpperCase() + route.slice(1)}</Link
             >
           </li>
@@ -85,7 +85,7 @@
           <li>
             <Link
               href={`/${route}`}
-              customClass="text-primary-400 hover:no-underline"
+              customClass="text-primary-400 font-semibold hover:no-underline"
               >{route.charAt(0).toUpperCase() + route.slice(1)}</Link
             >
           </li>
@@ -100,6 +100,8 @@
     </ul>
   </div>
   <div class="navbar-end">
-    <Link href="/login" customClass="btn btn-primary">Login</Link>
+    <Link href="/login" customClass="btn btn-primary hover:no-underline"
+      >Login</Link
+    >
   </div>
 </nav>
