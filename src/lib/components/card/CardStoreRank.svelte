@@ -1,11 +1,3 @@
-<script context="module" lang="ts">
-  export const prerender = true;
-</script>
-
-<svelte:head>
-  <title>Guardians of Adelia - Store</title>
-</svelte:head>
-
 <div
   class="p-4 max-w-sm bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700"
 >
