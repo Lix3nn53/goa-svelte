@@ -83,36 +83,9 @@ module.exports = {
       },
     },
   },
-  plugins: [require("daisyui")],
   darkMode: "class",
   future: {
     purgeLayersByDefault: true,
     removeDeprecatedGapUtilities: true,
-  },
-  daisyui: {
-    styled: true,
-    themes: [
-      {
-        mytheme: {
-          primary: "#a3e635",
-          secondary: "#fbbf24",
-          accent: "#1FB2A6",
-          neutral: "#191D24",
-          "base-100": "#2A303C",
-          info: "#3ABFF8",
-          success: "#36D399",
-          warning: "#fb7185",
-          error: "#ef4444",
-        },
-      },
-      "dark",
-      "cupcake",
-    ],
-    base: true,
-    utils: true,
-    logs: true,
-    rtl: false,
-    prefix: "",
-    darkTheme: "dark",
   },
 };

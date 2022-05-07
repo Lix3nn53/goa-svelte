@@ -1,21 +1,12 @@
 <script context="module" lang="ts">
+  import { _ } from "svelte-i18n";
   import Saos from "saos";
   import Button from "$lib/components/button/Button.svelte";
-  import { clickToCopy } from "$lib/clickToCopy";
-  import { _ } from "svelte-i18n";
   import Link from "$lib/components/link/Link.svelte";
+  import LinkButton from "$lib/components/link/LinkButton.svelte";
+  import TooltipCopy from "$lib/components/TooltipCopy.svelte";
 
   export const prerender = true;
-
-  let tooltip;
-  let copy;
-
-  async function copySuccess() {
-    tooltip.setAttribute("data-tip", "✔ Copied to clipboard!");
-    setTimeout(function () {
-      tooltip.setAttribute("data-tip", "Click to copy");
-    }, 1000);
-  }
 </script>
 
 <svelte:head>
@@ -24,48 +15,33 @@
 
 <div class="w-full flex flex-col items-center">
   <!-- Section 1 -->
-  <div class="hero py-16">
-    <div class="container">
-      <div class="flex flex-col lg:flex-row">
-        <div class="my-auto">
-          <Saos
-            once={true}
-            animation={"from-left 1.2s cubic-bezier(0, 0.7, 0.4, 1) both"}
+  <div class="container py-16">
+    <div class="flex flex-col lg:flex-row">
+      <div class="my-auto">
+        <Saos
+          once={true}
+          animation={"from-left 1.2s cubic-bezier(0, 0.7, 0.4, 1) both"}
+        >
+          <h1 class="text-violet-400 text-4xl font-semibold pb-4">
+            {$_("home.hero.h1")}<br />{$_("home.hero.h2")}
+          </h1>
+          <TooltipCopy
+            ><Button type="button" style="secondary" outline>
+              play.guardiansofadelia.com</Button
+            ></TooltipCopy
           >
-            <h1 class="text-violet-400 text-4xl font-semibold">
-              {$_("home.hero.h1")}<br />{$_("home.hero.h2")}
-            </h1>
-            <div
-              class="mt-4 mr-2 tooltip"
-              data-tip="Click to copy"
-              bind:this={tooltip}
-            >
-              <div
-                bind:this={copy}
-                use:clickToCopy={copy}
-                on:copysuccess={copySuccess}
-              >
-                <Button type="button" outline style="secondary">
-                  play.guardiansofadelia.com</Button
-                >
-              </div>
-            </div>
-            <a
-              class="btn btn-primary mt-4 xl:mt-0"
-              href="https://discord.gg/WGfKxGSJmn"
-              target="_blank"
-              rel="noreferrer">{$_("home.hero.b2")}</a
-            >
-          </Saos>
-        </div>
-        <div class="mx-auto order-first lg:order-1">
-          <Saos
-            once={true}
-            animation={"fade-in 1.6s cubic-bezier(0.5, 0.25, 0.8, 0.7) both"}
+          <LinkButton href="https://discord.gg/WGfKxGSJmn" target="_blank"
+            >{$_("home.hero.b2")}</LinkButton
           >
-            <img src="/img/logo.webp" alt="logo" class="section-1-logo" />
-          </Saos>
-        </div>
+        </Saos>
+      </div>
+      <div class="mx-auto order-first lg:order-1">
+        <Saos
+          once={true}
+          animation={"fade-in 1.6s cubic-bezier(0.5, 0.25, 0.8, 0.7) both"}
+        >
+          <img src="/img/logo.webp" alt="logo" class="section-1-logo" />
+        </Saos>
       </div>
     </div>
   </div>

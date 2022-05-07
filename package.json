@@ -40,7 +40,7 @@
     "@fontsource/fira-mono": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1",
-    "daisyui": "^2.14.3",
+    "svelte-click-outside": "^1.0.0",
     "svelte-forms": "^2.3.1",
     "svelte-i18n": "^3.4.0"
   }

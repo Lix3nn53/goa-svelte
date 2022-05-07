@@ -1,10 +1,11 @@
 <script lang="ts">
   export let href: string;
   export let customClass: String = "";
+  export let target: "_self" | "_blank" = "_self";
 
-  let className = `link link-hover ${customClass}`;
+  let className = `${customClass}`;
 </script>
 
-<a {href} class={className}>
+<a {href} class={className} {target} rel="noreferrer">
   <slot />
 </a>
