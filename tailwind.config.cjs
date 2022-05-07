@@ -13,23 +13,6 @@ module.exports = {
   mode: "jit",
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
-    container: {
-      padding: {
-        DEFAULT: "2rem",
-        sm: "2rem",
-        md: "2rem",
-        lg: "1rem",
-        xl: "1rem",
-        "2xl": "1rem",
-      },
-      margin: "auto 0",
-      center: true,
-    },
-    maxWidth: {
-      "1/4": "25%",
-      "1/2": "50%",
-      "3/4": "75%",
-    },
     extend: {
       colors: {
         base: {

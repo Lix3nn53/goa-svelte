@@ -6,7 +6,7 @@
   <title>Guardians of Adelia - Map</title>
 </svelte:head>
 
-<div class="container h-screen py-12">
+<div class="container h-screen py-12 mx-auto">
   <iframe
     class="w-full min-h-full rounded-lg border-4"
     title="map"

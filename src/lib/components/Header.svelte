@@ -74,7 +74,7 @@
         <img src="/img/favicon.webp" class="h-14" alt="Logo" />
       </Link>
       <div class="my-auto">
-        <Dropdown>
+        <Dropdown text={localeName}>
           <li>
             <Button
               type="button"

@@ -17,7 +17,7 @@
   <!-- Section 1 -->
   <div class="container py-16">
     <div class="flex flex-col lg:flex-row">
-      <div class="my-auto">
+      <div class="my-auto mx-4">
         <Saos
           once={true}
           animation={"from-left 1.2s cubic-bezier(0, 0.7, 0.4, 1) both"}
@@ -25,14 +25,25 @@
           <h1 class="text-violet-400 text-4xl font-semibold pb-4">
             {$_("home.hero.h1")}<br />{$_("home.hero.h2")}
           </h1>
-          <TooltipCopy
-            ><Button type="button" style="secondary" outline>
-              play.guardiansofadelia.com</Button
-            ></TooltipCopy
-          >
-          <LinkButton href="https://discord.gg/WGfKxGSJmn" target="_blank"
-            >{$_("home.hero.b2")}</LinkButton
-          >
+          <div class="flex flex-col gap-2 xl:flex-row">
+            <TooltipCopy
+              ><Button
+                type="button"
+                style="secondary"
+                outline
+                customClass="w-full"
+              >
+                play.guardiansofadelia.com</Button
+              ></TooltipCopy
+            >
+            <LinkButton
+              href="https://discord.gg/WGfKxGSJmn"
+              target="_blank"
+              customClass="w-full"
+            >
+              {$_("home.hero.b2")}</LinkButton
+            >
+          </div>
         </Saos>
       </div>
       <div class="mx-auto order-first lg:order-1">
