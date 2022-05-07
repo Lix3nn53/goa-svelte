@@ -14,35 +14,41 @@
     <div class="my-2 px-2 overflow-hidden w-full">
       <a
         href="/store/ranks"
-        class="btn flex items-end justify-start h-full w-full ranks duration-500 ease-in-out hover:no-underline"
+        class="btn flex items-end justify-start h-full w-full ranks duration-200 ease-in-out hover:no-underline rounded-lg"
       >
-        <span class="label capitalize text-4xl font-bold">Ranks</span></a
+        <span class="label capitalize text-4xl font-bold px-4 py-2">Ranks</span
+        ></a
       >
     </div>
 
     <div class="my-2 px-2 md:w-1/2 overflow-hidden w-full">
       <a
         href="/store/crates"
-        class="btn flex items-end justify-start h-full w-full crates duration-500 ease-in-out hover:no-underline"
+        class="btn flex items-end justify-start h-full w-full crates duration-200 ease-in-out hover:no-underline rounded-lg"
       >
-        <span class="label capitalize text-4xl font-bold">Crates</span></a
+        <span class="label capitalize text-4xl font-bold px-4 py-2">Crates</span
+        ></a
       >
     </div>
 
     <div class="my-2 px-2 md:w-1/2 overflow-hidden w-full">
       <a
         href="/store/boosts"
-        class="btn flex items-end justify-start h-full w-full boosts duration-500 ease-in-out hover:no-underline"
+        class="btn flex items-end justify-start h-full w-full boosts duration-200 ease-in-out hover:no-underline rounded-lg"
       >
-        <span class="label capitalize text-4xl font-bold">boosts</span></a
+        <span class="label capitalize text-4xl font-bold px-4 py-2">boosts</span
+        ></a
       >
     </div>
   </div>
 </section>
 
 <style>
-  .btn:hover {
+  .btn {
     transform: scale(0.98);
+  }
+  .btn:hover {
+    transform: scale(1);
   }
 
   .crates {
