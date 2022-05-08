@@ -1,8 +1,11 @@
+<script context="module" lang="ts">
+  import Breadcrumb from "$lib/components/breadcrumb/Breadcrumb.svelte";
+  import BreadcrumbItem from "$lib/components/breadcrumb/BreadcrumbItem.svelte";
+</script>
+
 <script lang="ts">
   import { page } from "$app/stores";
   import { onDestroy } from "svelte";
-  import Breadcrumb from "$lib/components/breadcrumb/Breadcrumb.svelte";
-  import BreadcrumbItem from "$lib/components/breadcrumb/BreadcrumbItem.svelte";
 
   let path = "";
   const unsubscribePage = page.subscribe((value) => (path = value.routeId));
