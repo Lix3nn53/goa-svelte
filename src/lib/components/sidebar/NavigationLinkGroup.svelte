@@ -76,7 +76,7 @@
 	-->
     {#if !disabled}
       <button
-        class="group-toggle w-full text-right pr-4"
+        class="group-toggle w-full text-left pl-4"
         class:open={groupOpen}
         on:click={toggleGroup}
         aria-expanded={groupOpen}
@@ -162,7 +162,7 @@
     margin: 0;
     padding: 0;
     padding-inline-start: 16px;
-    line-height: 2.25;
+    line-height: 2.4;
   }
 
   .group {

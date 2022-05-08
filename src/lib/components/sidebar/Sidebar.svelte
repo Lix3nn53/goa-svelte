@@ -39,16 +39,7 @@
   $: combinedTheme = { ...defaultTheme, ...theme };
   // Not using custom property style directive, because compilation results in superfluous wrapper div, see:
   // https://svelte.dev/docs#template-syntax-component-directives---style-props
-  $: styleString = [
-    `--backgroundColor_linkActive: ${combinedTheme.backgroundColor_linkActive}`,
-    `--backgroundColor_nav: ${combinedTheme.backgroundColor_nav}`,
-    `--color_link: ${combinedTheme.color_link}`,
-    `--color_linkHover: ${combinedTheme.color_linkHover}`,
-    `--maxWidth_nav: ${combinedTheme.maxWidth_nav}`,
-    `--minWidth_nav: ${combinedTheme.minWidth_nav}`,
-    `--opacity_linkDisabled: ${combinedTheme.opacity_linkDisabled}`,
-    `--opacity_linkInactive: ${combinedTheme.opacity_linkInactive}`,
-  ].join("; ");
+  $: styleString = [`--minWidth_nav: ${combinedTheme.minWidth_nav}`].join("; ");
 
   const toggleOpen = () => (open = !open);
 </script>

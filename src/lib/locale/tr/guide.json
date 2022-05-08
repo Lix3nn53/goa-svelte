@@ -22,10 +22,10 @@
     },
     "step2": "Sunucu Bilgilerini Düzenle menüsünde sunucu kaynak paketlerini etkinleştirin",
     "step3": "Sunucuya katılın ve kaynak paketinin yüklenmesini bekleyin. Bu adımda sorun yaşıyorsanız aşağıya bakın.",
-    "h1": "Problem nedir?",
+    "h1": "Sorun mu yaşıyorsun?",
     "p1": {
       "step1": "Minecraft Launcher'inizi güncelleyin.",
-      "step2": "%Appdata% klasörünüze gidin ve .minecraft'a tıklayın. Sonra sunucu-kaynak paketlerine gidin ve Guardians of Adelia ile ilgili eski dosyaları silin."
+      "step2": "%Appdata% klasörünüze gidin ve .minecraft'a tıklayın. Sonra server-resource-packs paketlerine gidin, Guardians of Adelia ile ilgili ve legacy dosyaları silin."
     }
   }
 }
