@@ -5,10 +5,11 @@
   export let outline = false;
   export let customClass: string = "";
 
-  let styleClass = "bg-primary-600 hover:bg-primary-700 focus:ring-primary-300";
+  let styleClass =
+    "bg-primary-600 hover:bg-primary-700 focus:ring-primary-300/[.2]";
   if (style === "secondary") {
     styleClass =
-      "bg-secondary-600 hover:bg-secondary-700 focus:ring-secondary-300";
+      "bg-secondary-600 hover:bg-secondary-700 focus:ring-secondary-300/[.2]";
   } else if (style === "ghost") {
     styleClass =
       "hover:bg-base-200/[.2] focus:ring-base-300/[.2] dark:hover:bg-base-700/[.2] dark:focus:ring-base-800/[.2]";

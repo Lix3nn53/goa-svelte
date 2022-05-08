@@ -109,7 +109,9 @@
       </div>
     </div>
     <div class="flex md:order-2">
-      <LinkButton href="/login">{$_("header.login")}</LinkButton>
+      <LinkButton href="/login" customClass="capitalize"
+        >{$_("header.login")}</LinkButton
+      >
     </div>
     <div
       class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
@@ -123,7 +125,7 @@
           {#if path === route}
             <li class="py-4 md:py-0 text-right">
               <LinkButton href={`/${route}`} style="ghost"
-                ><span class="label capitalize text-primary-400 font-semibold"
+                ><span class="capitalize text-primary-400 font-semibold"
                   >{route}</span
                 ></LinkButton
               >
@@ -131,7 +133,7 @@
           {:else}
             <li class="py-4 md:py-0">
               <LinkButton href={`/${route}`} style="ghost"
-                ><span class="label capitalize">{route}</span></LinkButton
+                ><span class="capitalize">{route}</span></LinkButton
               >
             </li>
           {/if}

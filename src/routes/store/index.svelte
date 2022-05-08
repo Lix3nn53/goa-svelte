@@ -6,49 +6,50 @@
   <title>Guardians of Adelia - Store</title>
 </svelte:head>
 
-<section class="flex flex-col items-center justify-center">
-  <h2 class="text-3xl font-bold mb-4">Categories</h2>
-  <div
-    class="container flex flex-wrap -mx-2 overflow-hidden h-96 w-full md:w-4/5 xl:w-2/3"
-  >
-    <div class="my-2 px-2 overflow-hidden w-full">
-      <a
-        href="/store/ranks"
-        class="btn flex items-end justify-start h-full w-full ranks duration-200 ease-in-out hover:no-underline rounded-lg"
-      >
-        <span class="label capitalize text-4xl font-bold px-4 py-2">Ranks</span
-        ></a
-      >
-    </div>
-
-    <div class="my-2 px-2 md:w-1/2 overflow-hidden w-full">
-      <a
-        href="/store/crates"
-        class="btn flex items-end justify-start h-full w-full crates duration-200 ease-in-out hover:no-underline rounded-lg"
-      >
-        <span class="label capitalize text-4xl font-bold px-4 py-2">Crates</span
-        ></a
-      >
-    </div>
-
-    <div class="my-2 px-2 md:w-1/2 overflow-hidden w-full">
-      <a
-        href="/store/boosts"
-        class="btn flex items-end justify-start h-full w-full boosts duration-200 ease-in-out hover:no-underline rounded-lg"
-      >
-        <span class="label capitalize text-4xl font-bold px-4 py-2">boosts</span
-        ></a
-      >
-    </div>
+<div class="flex flex-wrap -mx-2 overflow-hidden h-96 w-full">
+  <div class="my-2 px-2 overflow-hidden w-full">
+    <a
+      href="/store/ranks"
+      class="btn flex items-end justify-start h-full w-full ranks duration-200 ease-in-out hover:no-underline rounded-lg"
+    >
+      <span class="capitalize text-4xl font-bold px-4 py-2">Ranks</span></a
+    >
   </div>
-</section>
+
+  <div class="my-2 px-2 md:w-1/2 overflow-hidden w-full">
+    <a
+      href="/store/crates"
+      class="btn flex items-end justify-start h-full w-full crates duration-200 ease-in-out hover:no-underline rounded-lg"
+    >
+      <span class="capitalize text-4xl font-bold px-4 py-2">Crates</span></a
+    >
+  </div>
+
+  <div class="my-2 px-2 md:w-1/2 overflow-hidden w-full">
+    <a
+      href="/store/boosts"
+      class="btn flex items-end justify-start h-full w-full boosts duration-200 ease-in-out hover:no-underline rounded-lg"
+    >
+      <span class="capitalize text-4xl font-bold px-4 py-2">boosts</span></a
+    >
+  </div>
+</div>
 
 <style>
   .btn {
-    transform: scale(0.98);
+    border: rgb(var(--color-base-200)) solid 4px;
   }
-  .btn:hover {
-    transform: scale(1);
+  .crates:hover {
+    background-position: 90%;
+    border: #d56df8 solid 4px;
+  }
+  .ranks:hover {
+    background-position: 90%;
+    border: #fafa14 solid 4px;
+  }
+  .boosts:hover {
+    background-position: 90%;
+    border: #c2ec46 solid 4px;
   }
 
   .crates {
