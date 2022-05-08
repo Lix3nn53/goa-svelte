@@ -3,7 +3,7 @@
   export let customClass: String = "";
   export let target: "_self" | "_blank" = "_self";
 
-  let className = `${customClass}`;
+  let className = `text-primary-400 ${customClass}`;
 </script>
 
 <a {href} class={className} {target} rel="noreferrer">

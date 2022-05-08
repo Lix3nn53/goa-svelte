@@ -1,9 +1,0 @@
-<script context="module" lang="ts">
-  export const prerender = true;
-</script>
-
-<svelte:head>
-  <title>Guardians of Adelia - Guide</title>
-</svelte:head>
-
-<p>Guide</p>
