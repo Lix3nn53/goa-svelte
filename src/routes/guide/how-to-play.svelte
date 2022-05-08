@@ -18,7 +18,7 @@
       images={[
         {
           src: "https://cdn.discordapp.com/attachments/689660026423345188/839775943789903873/unknown.png",
-          alt: "enable_resource_pack",
+          alt: "Step 2",
         },
       ]}
     />
