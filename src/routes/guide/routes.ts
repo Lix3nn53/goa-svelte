@@ -1,4 +1,4 @@
-export const exampleRoutes = [
+export const guideRoutes = [
   {
     name: "guide.introduction.subject",
     route: "/guide",
@@ -128,6 +128,6 @@ export const exampleRoutes = [
   },
 ];
 
-const routes = [...exampleRoutes];
+const routes = [...guideRoutes];
 
 export default routes;

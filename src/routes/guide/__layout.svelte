@@ -15,18 +15,11 @@
     unsubscribePage();
   });
 
-  let items: string | any[];
-  $: items = path.split("/").filter((item) => item !== "");
-
-  import { exampleRoutes } from "./routes";
-  const exampleSidebarProps = Object.freeze({
-    routes: exampleRoutes,
+  import routes from "./routes";
+  let sidebarProps;
+  $: sidebarProps = Object.freeze({
+    routes: routes,
     theme: {
-      backgroundColor_linkActive: "#F4442E",
-      backgroundColor_nav: "#1E1E1E",
-      color_link: "#F7F7F2",
-      color_linkHover: "#FCA311",
-      fontSize: "1rem",
       maxWidth_nav: "18vw",
       minWidth_nav: "240px",
       opacity_linkDisabled: "0.5",
@@ -37,7 +30,7 @@
 </script>
 
 <section class="container mx-auto flex gap-2 my-9">
-  <Sidebar {...exampleSidebarProps} />
+  <Sidebar {...sidebarProps} />
   <div>
     <slot />
   </div>
