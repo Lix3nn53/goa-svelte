@@ -11,11 +11,11 @@
 
   export let isOpen = false;
 
-  function toggle() {
+  export const toggle = () => {
     isOpen = !isOpen;
     dropdown.classList.toggle("hidden");
     dropdown.classList.toggle("absolute");
-  }
+  };
 </script>
 
 <button

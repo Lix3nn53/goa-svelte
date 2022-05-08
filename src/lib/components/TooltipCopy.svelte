@@ -8,7 +8,7 @@
     text = "✔ Copied to clipboard!";
     setTimeout(function () {
       text = "Click to copy";
-    }, 1000);
+    }, 1200);
   }
 </script>
 

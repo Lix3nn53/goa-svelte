@@ -1,14 +1,14 @@
 {
-  "guide": "Guide",
-  "news": "News",
-  "map": "Map",
-  "store": "Store",
-  "login": "Login",
-  "register": "Register",
-  "profile": "Profile",
-  "player": "Player",
-  "characters": "Characters",
-  "credits": "Credits",
-  "buy_credits": "Buy Credits",
-  "logout": "Logout"
+  "guide": "guide",
+  "news": "news",
+  "map": "map",
+  "store": "store",
+  "login": "login",
+  "register": "register",
+  "profile": "profile",
+  "player": "player",
+  "characters": "characters",
+  "credits": "credits",
+  "buy_credits": "buy credits",
+  "logout": "logout"
 }

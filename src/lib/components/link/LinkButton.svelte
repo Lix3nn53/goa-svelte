@@ -17,14 +17,15 @@
   if (outline) {
     styleClass += " border bg-transparent";
     if (style === "primary") {
-      styleClass += " border-primary-600 text-primary-600";
+      styleClass +=
+        " border-primary-600 text-primary-600 hover:border-primary-700 hover:text-slate-50";
     } else if (style === "secondary") {
       styleClass +=
-        " border-secondary-600 text-secondary-600 hover:border-secondary-700 hover:text-base-50";
+        " border-secondary-600 text-secondary-600 hover:border-secondary-700 hover:text-slate-50";
     }
   }
 
-  let className = `hover:no-underline focus:ring-4 focus:outline-none px-5 py-3 text-center mr-3 md:mr-0 font-medium rounded-lg ${styleClass} ${customClass}`;
+  let className = `hover:no-underline focus:ring px-5 py-2.5 text-center mr-3 md:mr-0 font-medium rounded-lg ${styleClass} ${customClass}`;
 </script>
 
 <a {href} class={className} {target} rel="noreferrer">

@@ -2,7 +2,7 @@
   import { page } from "$app/stores";
   import { user } from "./../../stores";
   import { onDestroy } from "svelte";
-  import { locale } from "svelte-i18n";
+  import { locale, _ } from "svelte-i18n";
   import Button from "./button/Button.svelte";
 
   import Dropdown from "./Dropdown.svelte";
@@ -27,12 +27,20 @@
     unsubscribeLocale();
   });
 
-  let routes = ["guide", "news", "map", "store"];
+  let routes;
+  $: routes = [
+    $_("header.guide"),
+    $_("header.news"),
+    $_("header.map"),
+    $_("header.store"),
+  ];
 
   let navigation;
   function toggle() {
     navigation.classList.toggle("hidden");
   }
+
+  let toggleLocaleDropdown;
 </script>
 
 <nav class="px-2 sm:px-4 py-2.5 rounded ">
@@ -74,11 +82,14 @@
         <img src="/img/favicon.webp" class="h-14" alt="Logo" />
       </Link>
       <div class="my-auto">
-        <Dropdown text={localeName}>
+        <Dropdown text={localeName} bind:toggle={toggleLocaleDropdown}>
           <li>
             <Button
               type="button"
-              on:click={() => locale.set("en")}
+              on:click={() => {
+                locale.set("en");
+                toggleLocaleDropdown();
+              }}
               style="ghost"
               customClass="w-full">EN</Button
             >
@@ -86,7 +97,10 @@
           <li>
             <Button
               type="button"
-              on:click={() => locale.set("tr")}
+              on:click={() => {
+                locale.set("tr");
+                toggleLocaleDropdown();
+              }}
               style="ghost"
               customClass="w-full">TR</Button
             >
@@ -95,7 +109,7 @@
       </div>
     </div>
     <div class="flex md:order-2">
-      <LinkButton href="/login">Login</LinkButton>
+      <LinkButton href="/login">{$_("header.login")}</LinkButton>
     </div>
     <div
       class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
