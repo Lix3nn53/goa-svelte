@@ -48,6 +48,11 @@
         transition:fade={{ duration: 200 }}
       >
         <div class="content">
+          <div class="close">
+            <button on:click={close}>
+              <i class="fas fa-times" />
+            </button>
+          </div>
           <svelte:component this={Component} {...props} />
         </div>
       </div>
@@ -78,5 +83,14 @@
   }
   .content {
     position: relative;
+  }
+  .close {
+    position: fixed;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 20px;
   }
 </style>

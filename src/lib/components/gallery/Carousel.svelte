@@ -3,7 +3,7 @@
   import { fade } from "svelte/transition";
   import { close } from "./modalStore";
   import { debounce } from "./util.js";
-  import ClickOutside from "./ClickOutside.svelte";
+  import ClickOutside from "svelte-click-outside";
 
   export let images;
   export let curr_idx = 0;
@@ -44,14 +44,14 @@
 <svelte:window on:resize={updatePosition} />
 <div class="container">
   <div class="nav">
-    <button on:click={left} bind:this={left_nav_button}>
+    <button class="left" on:click={left} bind:this={left_nav_button}>
       <svg role="presentation" viewBox="0 0 24 24">
         <path
           d="M15.422 16.078l-1.406 1.406-6-6 6-6 1.406 1.406-4.594 4.594z"
         />
       </svg>
     </button>
-    <button on:click={right} bind:this={right_nav_button}>
+    <button class="right" on:click={right} bind:this={right_nav_button}>
       <svg role="presentation" viewBox="0 0 24 24">
         <path d="M9.984 6l6 6-6 6-1.406-1.406 4.594-4.594-4.594-4.594z" />
       </svg>
@@ -61,17 +61,12 @@
     class="carousel"
     style={`transform: translate3d(${translateX}px, 0, 0);`}
   >
-    <ClickOutside
-      className="click-outside-wrapper"
-      on:clickoutside={handleClose}
-      exclude={[left_nav_button, right_nav_button, ...image_elements]}
-    >
-      {#each images as image, i}
-        <div class="img-container">
-          <img {...image} bind:this={image_elements[i]} />
-        </div>
-      {/each}
-    </ClickOutside>
+    {#each images as image, i}
+      <div class="img-container flex flex-col">
+        <img {...image} bind:this={image_elements[i]} />
+        <p class="text-center pt-4 text-xl font-semibold">{image.alt}</p>
+      </div>
+    {/each}
   </div>
 </div>
 
@@ -122,9 +117,10 @@
     border-radius: 50%;
     width: 5em;
     height: 5em;
-    display: flex;
+    position: fixed;
     color: white;
     margin: 0 17px;
+    bottom: 50%;
   }
   .nav button:hover {
     background: rgba(255, 255, 255, 0.3);
@@ -138,6 +134,14 @@
     stroke-width: 0;
   }
 
+  .left {
+    left: 0;
+  }
+
+  .right {
+    right: 0;
+  }
+
   @media (max-width: 800px) {
     :global(.carousel img) {
       max-width: 75vw;
@@ -146,6 +150,7 @@
       margin: 0 12px;
       width: 4em;
       height: 4em;
+      bottom: 10%;
     }
     .nav svg {
       width: 4em;
@@ -160,6 +165,7 @@
       margin: 0 10px;
       width: 3em;
       height: 3em;
+      bottom: 15%;
     }
     .nav svg {
       width: 3em;

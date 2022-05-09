@@ -27,7 +27,7 @@
   class="container mx-auto flex flex-col lg:flex-row gap-2 my-9 p-2 bg-base-50/[.8] rounded-lg"
 >
   <Sidebar {...sidebarProps} />
-  <div>
+  <div class="pt-2">
     <slot />
   </div>
 </section>

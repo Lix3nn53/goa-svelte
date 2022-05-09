@@ -10,9 +10,9 @@
     "h1": "Changing your class from Menu",
     "p1": "You can open menu by clicking the Menu Book in your inventory. (Open your inventory with E key) At the menu click Character and then Class. Here you can select from tier 1, 2 or 3. And finally select the class you want.",
     "h2": "Unlocking classes",
-    "p2": "All classes at a tier are unlocked when you reach a certain level. So all of the tier-1 classes are unlocked at the start.",
+    "p2": "All 4 classes are unlocked from start. But each class has their own level.",
     "h3": "Class levels",
-    "p3": "Each class has it's own experience point, which can only be earned by killing monsters. When your class level ups, you will gain a skill point. You can fine more about skills here: "
+    "p3": "Each class has it's own experience point, which can only be earned by killing monsters. When your class level ups, you will gain a skill point. You can find more about skills here: "
   },
   "tier1": {
     "description": "Tier 1 classes are unlocked at level 1. Class tiers does not show their their power.",

@@ -14,10 +14,7 @@
   }
 </script>
 
-<div
-  class="thumbnails m-1 md:m-2 w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/4 2xl:w-1/5"
-  on:click={onClick}
->
+<div class="thumbnails m-1 w-40 lg:w-64 h-40 lg:h-64" on:click={onClick}>
   <img
     use:load
     class:blur={!loaded}
@@ -25,15 +22,17 @@
     class:loaded
     {...imageProps}
     alt={imageProps.alt || ""}
+    class="ease-out"
   />
   <div class="black" />
-  <div class="title">{imageProps.alt}</div>
+  <div class="title text-xl font-semibold">{imageProps.alt}</div>
 </div>
 
 <style>
   img {
     opacity: 0;
     transition: all 1s ease;
+    object-fit: cover;
   }
   .after-load {
     transition: none;
@@ -44,13 +43,11 @@
 
   img {
     min-height: 50px;
-    height: auto !important;
     cursor: pointer;
   }
 
   img:hover {
     opacity: 0.5;
-    transition: none;
     filter: grayscale(0.5) blur(1px);
   }
 
@@ -79,10 +76,10 @@
 
   .title {
     color: #fff;
-    font-size: 2em;
     align-self: center;
     position: absolute;
     z-index: 10;
+    text-align: center;
   }
 
   .black,
