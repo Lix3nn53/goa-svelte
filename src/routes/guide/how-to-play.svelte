@@ -1,6 +1,5 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
-  import Link from "$lib/components/link/Link.svelte";
   import Gallery from "$lib/components/gallery/Gallery.svelte";
 </script>
 
@@ -27,7 +26,7 @@
     {$_("guide.how-to-play.step3")}
   </li>
 </ol>
-<h2 class="text-2xl font-semibold py-4">{$_("guide.how-to-play.h1")}</h2>
+<h2 class="text-xl font-semibold pb-2 pt-8">{$_("guide.how-to-play.h1")}</h2>
 <ol class="list-decimal">
   <li>
     {$_("guide.how-to-play.p1.step1")}

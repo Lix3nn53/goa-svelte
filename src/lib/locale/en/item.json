@@ -17,13 +17,15 @@
     "h2": "Item Models",
     "p2": "Each weapon has custom 3D model. You can see some of them in 3D view on sketchfab: ",
     "weapon": {
-      "p0": "Each class can use multiple weapon type. (2~4 depending on class)",
+      "p0": "Each class can use multiple types of weapons.",
       "h1": "Weapon Types",
       "p1": "There are 10 weapon types in Guardians of Adelia.",
       "type": "Weapon Type",
+      "damage": "⚔️ Damage",
       "speed": "Attack Speed",
-      "range": "Range",
+      "range": "🏹 Range",
       "bonus": "Bonus effect",
+      "crit_chance": "☆ Critical Chance",
       "sword": {
         "h": "Sword",
         "damage": "Normal",
@@ -127,6 +129,8 @@
       "material": "Material",
       "weight": "Weight",
       "set_effect": "Set Effect",
+      "health": "❤️ Health",
+      "defense": "Defense",
       "heavy": {
         "h": "Heavy",
         "health": "High",

@@ -33,17 +33,6 @@ export const guideRoutes = [
   {
     name: "skill.subject",
     route: "/guide/skills",
-    childRoutes: [
-      {
-        name: "Skill Tree",
-        route: "/guide/skills/skill-tree",
-      },
-      {
-        name: "Skill Bar",
-        route: "/guide/skills/skill-bar",
-      },
-    ],
-    collapseTree: true,
   },
   {
     name: "attribute.subject",
@@ -78,11 +67,11 @@ export const guideRoutes = [
   },
   {
     name: "npc.subject",
-    route: "/guide/npcs",
+    route: "/guide/npc",
     childRoutes: [
       {
         name: "Merchants",
-        route: "/guide/npcs/merchants",
+        route: "/guide/npc/merchants",
       },
     ],
     collapseTree: true,
@@ -101,7 +90,7 @@ export const guideRoutes = [
     childRoutes: [
       {
         name: "Crafting Types",
-        route: "/guide/crafting/crafting-types",
+        route: "/guide/crafting/types",
       },
       {
         name: "Gathering",

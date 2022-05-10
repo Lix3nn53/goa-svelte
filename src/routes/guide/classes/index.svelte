@@ -4,9 +4,9 @@
 </script>
 
 <h2 class="text-2xl font-semibold pb-4">{$_("classes.subject")}</h2>
-<p class="pb-4">{$_("classes.guide.p0")}</p>
-<h2 class="text-2xl font-semibold pb-4">{$_("classes.guide.h1")}</h2>
-<p class="pb-4">{$_("classes.guide.p1")}</p>
+<p>{$_("classes.guide.p0")}</p>
+<h2 class="text-xl font-semibold pb-2 pt-8">{$_("classes.guide.h1")}</h2>
+<p class="pb-2">{$_("classes.guide.p1")}</p>
 <Gallery
   images={[
     {
@@ -27,7 +27,7 @@
     },
   ]}
 />
-<h2 class="text-2xl font-semibold pb-4">{$_("classes.guide.h2")}</h2>
-<p class="pb-4">{$_("classes.guide.p2")}</p>
-<h2 class="text-2xl font-semibold pb-4">{$_("classes.guide.h3")}</h2>
-<p class="pb-4">{$_("classes.guide.p3")}</p>
+<h2 class="text-xl font-semibold pb-2 pt-8">{$_("classes.guide.h2")}</h2>
+<p>{$_("classes.guide.p2")}</p>
+<h2 class="text-xl font-semibold pb-2 pt-8">{$_("classes.guide.h3")}</h2>
+<p>{$_("classes.guide.p3")}</p>

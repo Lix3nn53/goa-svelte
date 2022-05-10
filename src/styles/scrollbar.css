@@ -8,7 +8,7 @@
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-    width: 12px;
+    width: 16px;
 }
 
 *::-webkit-scrollbar-track {
