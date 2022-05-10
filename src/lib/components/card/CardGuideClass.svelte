@@ -1,7 +1,6 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
 
-  export let className: string;
   export let src = "/img/guide/classes/fighter/icon.png";
   export let weapons: string[] = [];
   export let armors: string[] = [];
@@ -12,45 +11,39 @@
   export let crit_chance: number = 0;
 </script>
 
-<div class="flex-container column bg-base-50 rounded-lg p-9 w-full">
-  <h2 class="font-bold text-xl text-center pb-2">{className}</h2>
-  <img
-    {src}
-    alt="icon"
-    class="pixel-icon"
-    style="width: 150px; margin: auto;"
-  />
-  <h3 class="text-center font-semibold text-lg pt-4">Weapons</h3>
-  <table class="w-full flex flex-wrap gap-4 justify-center">
+<div class="flex flex-col">
+  <img {src} alt="icon" class="pixel-icon" style="width: 150px;" />
+  <h3 class="font-semibold text-lg pt-4">Weapons</h3>
+  <table class="flex flex-wrap gap-4">
     {#each weapons as weapon}
       <p class="text-center">{weapon}</p>
     {/each}
   </table>
-  <h3 class="text-center font-semibold text-lg pt-4">Armors</h3>
-  <table class="w-full flex flex-wrap gap-4 justify-center">
+  <h3 class="font-semibold text-lg pt-4">Armors</h3>
+  <table class="flex flex-wrap gap-4">
     {#each armors as armor}
       <p class="text-center">{armor}</p>
     {/each}
   </table>
-  <h3 class="text-center font-semibold text-lg pt-4">Attributes</h3>
-  <div class="w-full">
-    <div class="border-b flex flex-row justify-between">
+  <h3 class="font-semibold text-lg pt-4">Attributes</h3>
+  <div class="">
+    <div class="flex flex-row gap-2">
       <p>Health:</p>
       <p>{health}</p>
     </div>
-    <div class="border-b flex flex-row justify-between">
+    <div class="flex flex-row gap-2">
       <p>Mana:</p>
       <p>{mana}</p>
     </div>
-    <div class="border-b flex flex-row justify-between">
+    <div class="flex flex-row gap-2">
       <p>Damage:</p>
       <p>{damage}</p>
     </div>
-    <div class="border-b flex flex-row justify-between">
+    <div class="flex flex-row gap-2">
       <p>Defense:</p>
       <p>{defense}</p>
     </div>
-    <div class="border-b flex flex-row justify-between">
+    <div class="flex flex-row gap-2">
       <p>Critical Chance:</p>
       <p>{crit_chance}</p>
     </div>
