@@ -20,8 +20,8 @@ export const guideRoutes = [
         route: "/guide/classes/mage",
       },
       {
-        name: "Paladin",
-        route: "/guide/classes/paladin",
+        name: "Priest",
+        route: "/guide/classes/priest",
       },
       {
         name: "Rogue",
