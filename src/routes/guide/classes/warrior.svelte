@@ -26,24 +26,20 @@
 <Gallery
   images={[
     {
-      src: "https://cdn.discordapp.com/attachments/689660026423345188/795582339786473472/unknown.png",
-      alt: "A Frozen Enemy",
+      src: "https://cdn.discordapp.com/attachments/689660026423345188/833656796135686164/unknown.png",
+      alt: "Power Slash",
     },
     {
-      src: "https://media.giphy.com/media/bMZwOUeocIxMXZ934o/giphy.gif",
-      alt: "Turret",
+      src: "https://cdn.discordapp.com/attachments/689660026423345188/832086714927153152/unknown.png",
+      alt: "Dragon's Charge",
     },
     {
-      src: "https://media.giphy.com/media/VpgG19d7GYvXNSLhEd/giphy.gif",
-      alt: "Bomb",
+      src: "https://cdn.discordapp.com/attachments/689660026423345188/839421166622998558/unknown.png",
+      alt: "Leap of Doom",
     },
     {
-      src: "https://media.giphy.com/media/Ap3Lfh2nJZ2l2ywuay/giphy.gif",
-      alt: "Missile",
-    },
-    {
-      src: "https://cdn.discordapp.com/attachments/689660026423345188/795268511130714152/unknown.png",
-      alt: "Skeleton Army",
+      src: "https://cdn.discordapp.com/attachments/689660026423345188/839450395067285534/unknown.png",
+      alt: "Aqua Prison",
     },
   ]}
 />

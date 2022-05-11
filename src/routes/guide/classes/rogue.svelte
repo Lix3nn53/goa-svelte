@@ -26,24 +26,16 @@
 <Gallery
   images={[
     {
-      src: "https://cdn.discordapp.com/attachments/689660026423345188/795582339786473472/unknown.png",
-      alt: "A Frozen Enemy",
+      src: "https://cdn.discordapp.com/attachments/689660026423345188/839433556718911528/unknown.png",
+      alt: "Bear Trap",
     },
     {
-      src: "https://media.giphy.com/media/bMZwOUeocIxMXZ934o/giphy.gif",
-      alt: "Turret",
+      src: "https://cdn.discordapp.com/attachments/689660026423345188/901783690995171328/unknown.png",
+      alt: "Bat Form",
     },
     {
-      src: "https://media.giphy.com/media/VpgG19d7GYvXNSLhEd/giphy.gif",
-      alt: "Bomb",
-    },
-    {
-      src: "https://media.giphy.com/media/Ap3Lfh2nJZ2l2ywuay/giphy.gif",
-      alt: "Missile",
-    },
-    {
-      src: "https://cdn.discordapp.com/attachments/689660026423345188/795268511130714152/unknown.png",
-      alt: "Skeleton Army",
+      src: "https://media.giphy.com/media/vVnIh1ZhwHmrasKKlE/giphy.gif",
+      alt: "Assassin's Execution",
     },
   ]}
 />

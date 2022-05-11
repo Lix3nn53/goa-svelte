@@ -26,24 +26,16 @@
 <Gallery
   images={[
     {
-      src: "https://cdn.discordapp.com/attachments/689660026423345188/795582339786473472/unknown.png",
-      alt: "A Frozen Enemy",
+      src: "https://cdn.discordapp.com/attachments/689660026423345188/794042194674712586/unknown.png",
+      alt: "Totem",
     },
     {
-      src: "https://media.giphy.com/media/bMZwOUeocIxMXZ934o/giphy.gif",
-      alt: "Turret",
+      src: "https://cdn.discordapp.com/attachments/689660026423345188/839424808550531072/unknown.png",
+      alt: "Polymorph",
     },
     {
-      src: "https://media.giphy.com/media/VpgG19d7GYvXNSLhEd/giphy.gif",
-      alt: "Bomb",
-    },
-    {
-      src: "https://media.giphy.com/media/Ap3Lfh2nJZ2l2ywuay/giphy.gif",
-      alt: "Missile",
-    },
-    {
-      src: "https://cdn.discordapp.com/attachments/689660026423345188/795268511130714152/unknown.png",
-      alt: "Skeleton Army",
+      src: "https://media.giphy.com/media/0vjorN1Lxi1m3PkIU6/giphy.gif",
+      alt: "Surf",
     },
   ]}
 />
