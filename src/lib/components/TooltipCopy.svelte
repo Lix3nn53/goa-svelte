@@ -1,8 +1,12 @@
 <script lang="ts">
-  import { clickToCopy } from "$lib/clickToCopy";
+  import Tooltip from "./Tooltip.svelte";
+  import CopyToClipboard from "./CopyToClipboard.svelte";
+  import Button from "./button/Button.svelte";
+
+  export let textToCopy = "play.guardiansofadelia.com";
+  export let textButton = "play.guardiansofadelia.com";
 
   let text = "Click to copy";
-  let copy;
 
   async function copySuccess() {
     text = "✔ Copied to clipboard!";
@@ -12,6 +16,17 @@
   }
 </script>
 
-<span use:clickToCopy={copy} on:copysuccess={copySuccess} data-tooltip={text}>
-  <slot /></span
->
+<Tooltip>
+  <CopyToClipboard text={textToCopy} let:copy on:copy={copySuccess}>
+    <Button
+      type="button"
+      style="secondary"
+      outline
+      customClass="w-full"
+      on:click={copy}
+    >
+      {textButton}
+    </Button>
+  </CopyToClipboard>
+  <span slot="tooltip">{text}</span>
+</Tooltip>

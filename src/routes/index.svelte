@@ -26,16 +26,8 @@
             {$_("home.hero.h1")}<br />{$_("home.hero.h2")}
           </h1>
           <div class="flex flex-col gap-2 xl:flex-row">
-            <TooltipCopy
-              ><Button
-                type="button"
-                style="secondary"
-                outline
-                customClass="w-full"
-              >
-                play.guardiansofadelia.com</Button
-              ></TooltipCopy
-            >
+            <TooltipCopy />
+
             <LinkButton
               href="https://discord.gg/WGfKxGSJmn"
               target="_blank"
