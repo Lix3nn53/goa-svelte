@@ -2,15 +2,22 @@
   export let src = "/img/guide/skills/1.png";
   export let top = 0;
   export let left = 0;
+
+  let card;
+
+  function toggleCard() {
+    card.classList.toggle("hidden");
+  }
 </script>
 
 <div
-  class="point border-4 rounded w-16 h-16"
+  class="point border-4 w-16 h-16 rounded"
   style="background-image: url('{src}'); top: {top}px; left: {left}px;"
+  on:click={toggleCard}
 >
-  <div class="card hide fade-in-line">
-    <h3>Expertise</h3>
-    <div class="card-foot">
+  <div class="card hidden rounded-lg p-2 bg-base-50/[.8]" bind:this={card}>
+    <h3 class="text-lg font-semibold pb-2">Expertise</h3>
+    <div class="text-sm">
       <span
         >At 1st level, choose two of your skill Proficiencies, or one of your
         skill Proficiencies and your proficiency with Thieves' Tools. Your
@@ -35,11 +42,7 @@
     position: absolute;
   }
 
-  /*skills*/
-  .hide {
-    display: none;
-  }
-  .point:hover .hide {
+  .point:hover .card {
     display: block;
     z-index: 3;
     overflow-y: auto;
@@ -47,22 +50,10 @@
   .card {
     width: 215px;
     height: auto;
-    min-height: 260px;
-    background: rgb(var(--color-base-100));
+    min-height: 215px;
+    color: rgb(var(--color-base-900));
     position: relative;
-    border-radius: 12px;
-    margin-left: 45px;
-  }
-  .card h3 {
-    padding: 0 8px;
-    margin: -28px 0 0 0;
-    font-size: 14px;
-    position: relative;
-  }
-  .card-foot {
-    padding: 8px;
-  }
-  .card-foot span {
-    font-size: 12px;
+    margin-left: 48px;
+    margin-top: 16px;
   }
 </style>
