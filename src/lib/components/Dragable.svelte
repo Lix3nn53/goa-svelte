@@ -2,12 +2,18 @@
   import { onMount } from "svelte";
   export let width = 2560;
   export let height = 1440;
+  export let startX = 0;
+  export let startY = 0;
 
   let ele;
 
   onMount(() => {
-    ele.scrollTop = 300;
-    ele.scrollLeft = 1000;
+    if (startX === 0 && startY === 0) {
+      return;
+    }
+
+    ele.scrollTop = startX;
+    ele.scrollLeft = startY;
   });
 
   let pos = { top: 0, left: 0, x: 0, y: 0 };

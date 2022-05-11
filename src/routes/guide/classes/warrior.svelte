@@ -4,6 +4,7 @@
   import CardGuideClass from "$lib/components/card/CardGuideClass.svelte";
   import Gallery from "$lib/components/gallery/Gallery.svelte";
   import Dragable from "$lib/components/Dragable.svelte";
+  import SkillTreePoint from "$lib/components/SkillTreePoint.svelte";
 </script>
 
 <h2 class="text-2xl font-semibold pb-4">Warrior</h2>
@@ -21,7 +22,9 @@
   crit_chance={2}
 />
 <h2 class="text-xl font-semibold pb-2 pt-8">Skill Tree</h2>
-<Dragable>AAAAAAAAA</Dragable>
+<Dragable>
+  <SkillTreePoint src="/img/guide/skills/1.png" top={40} left={40} />
+</Dragable>
 <h2 class="text-xl font-semibold pb-2 pt-8">Gallery</h2>
 <Gallery
   images={[
