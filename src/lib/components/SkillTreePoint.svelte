@@ -2,6 +2,9 @@
   export let src = "/img/guide/skills/1.png";
   export let top = 0;
   export let left = 0;
+  export let name = "Name";
+  export let type = "type";
+  export let description = "Description";
 
   let card;
 
@@ -11,35 +14,34 @@
 </script>
 
 <div
-  class="point border-4 w-16 h-16 rounded"
+  class="point border-4 w-16 h-16 rounded border-white/[.6] hover:border-white"
   style="background-image: url('{src}'); top: {top}px; left: {left}px;"
   on:click={toggleCard}
 >
   <div class="card hidden rounded-lg p-2 bg-base-50/[.8]" bind:this={card}>
-    <h3 class="text-lg font-semibold pb-2">Expertise</h3>
+    <h3 class="text-xl font-bold">{name}</h3>
     <div class="text-sm">
-      <span
-        >At 1st level, choose two of your skill Proficiencies, or one of your
-        skill Proficiencies and your proficiency with Thieves' Tools. Your
-        Proficiency Bonus is doubled for any ability check you make that uses
-        either of the chosen Proficiencies.</span
-      >
+      <p class="font-semibold pb-4">
+        Type: <span class="font-normal">{type}</span>
+      </p>
+      <p>
+        {description}
+      </p>
     </div>
   </div>
 </div>
 
 <style>
   .point {
-    box-shadow: 0 0 2px rgba(255, 255, 255, 0.5),
-      0 0 8px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5),
-      0 0 20px rgba(245, 175, 25, 0.5), 0 0 30px rgba(245, 175, 25, 0.5),
-      0 0 40px rgba(245, 175, 25, 0.5), 0 0 50px rgba(245, 175, 25, 0.2),
-      0 0 80px rgba(245, 175, 25, 0.2);
     cursor: pointer;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
+  }
+
+  .point:hover {
+    box-shadow: 0 0 36px 8px rgba(255, 253, 150, 0.5);
   }
 
   .point:hover .card {

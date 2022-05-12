@@ -12,8 +12,8 @@
       return;
     }
 
-    ele.scrollTop = startX;
-    ele.scrollLeft = startY;
+    ele.scrollTop = startY;
+    ele.scrollLeft = startX;
   });
 
   let pos = { top: 0, left: 0, x: 0, y: 0 };
