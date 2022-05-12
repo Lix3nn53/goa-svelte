@@ -14,6 +14,38 @@
     "h3": "Class levels",
     "p3": "Each class has it's own experience point, which can only be earned by killing monsters. When your class level ups, you will gain a skill point. You can find more about skills here: "
   },
+  "warrior": {
+    "name": "Warrior",
+    "p0": "Warriors are masters of close combat. Their skill tree consists of 4 different playstyles: dragonslayer, knight, monk and ?.",
+    "p1": "Dragonslayers focuses on AOE(Area of effect) damage and they can wield battle-axes. Battleaxes have highest damage but also have low attack speed.",
+    "p2": "Knights are tanks that focuses on CC(Crowd Control) and they can wield shields. Shields can block damage coming from the front.",
+    "p3": "Monks can use spears. Spears are unique weapons that can attack from melee and long range.",
+    "p4": "?"
+  },
+  "mage": {
+    "name": "Mage",
+    "p0": "Mages are masters of magic. Their skill tree consists of 4 different playstyles: Fire, ice, necromancer and engineer.",
+    "p1": "Fire spells deal huge amount of damage.",
+    "p2": "Ice spells slows and/or stuns enemies.",
+    "p3": "Necromancers can summon skeletons and golems to fight for them.",
+    "p4": "Engineers can summon turrets with automatic attacks."
+  },
+  "priest": {
+    "name": "Priest",
+    "p0": "Priests are masters of support. Their skill tree consists of 4 different playstyles: Paladin, witch doctor, shaman and druid.",
+    "p1": "Paladins are tanks that focuses on buffs. They can wield shields. Shields can block damage coming from the front.",
+    "p2": "Witch doctor spells focuses on throwing potions to heal, buff, debuff and damage.",
+    "p3": "Shamans summons a totem and plays around it.",
+    "p4": "Druids ?."
+  },
+  "rogue": {
+    "name": "Rogue",
+    "p0": "Rogues are masters of mobility. Their skill tree consists of 4 different playstyles: ranger, hunter, assassin, and ?.",
+    "p1": "The Ranger has lots of movement and dexterity, allowing you to kite your target and deal damage from long distances.",
+    "p2": "Hunters main strategy is kiting like rangers but they use CC(Crowd Control) to kite instead of mobility.",
+    "p3": "Due to their incredible speed and agility, assassins are an expert at dealing damage in a short amount of time!",
+    "p4": "?"
+  },
   "tier1": {
     "description": "Tier 1 classes are unlocked at level 1. Class tiers does not show their their power.",
     "fire_mage": {

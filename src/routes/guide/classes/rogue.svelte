@@ -8,10 +8,24 @@
   import SkillTreeArrow from "$lib/components/SkillTreeArrow.svelte";
 </script>
 
-<h2 class="text-2xl font-semibold pb-4">Rogue</h2>
+<h2 class="text-2xl font-semibold pb-4">{$_("classes.rogue.name")}</h2>
 <p class="pb-4">
-  {$_("classes.tier1.ranger.playstyle")}
+  {$_("classes.rogue.p0")}
 </p>
+<ol class="list-disc pb-4">
+  <li>
+    {$_("classes.rogue.p1")}
+  </li>
+  <li>
+    {$_("classes.rogue.p2")}
+  </li>
+  <li>
+    {$_("classes.rogue.p3")}
+  </li>
+  <li>
+    {$_("classes.rogue.p4")}
+  </li>
+</ol>
 <CardGuideClass
   src="/img/guide/classes/ranger/icon.png"
   weapons={["Bow", "Crossbow", "Dagger"]}

@@ -8,10 +8,24 @@
   import SkillTreeArrow from "$lib/components/SkillTreeArrow.svelte";
 </script>
 
-<h2 class="text-2xl font-semibold pb-4">Paladin</h2>
+<h2 class="text-2xl font-semibold pb-4">{$_("classes.priest.name")}</h2>
 <p class="pb-4">
-  {$_("classes.tier1.paladin.playstyle")}
+  {$_("classes.priest.p0")}
 </p>
+<ol class="list-disc pb-4">
+  <li>
+    {$_("classes.priest.p1")}
+  </li>
+  <li>
+    {$_("classes.priest.p2")}
+  </li>
+  <li>
+    {$_("classes.priest.p3")}
+  </li>
+  <li>
+    {$_("classes.priest.p4")}
+  </li>
+</ol>
 <CardGuideClass
   src="/img/guide/classes/paladin/icon.png"
   weapons={["Wand", "Staff", "Sword", "GreatSword", "WarHammer"]}
