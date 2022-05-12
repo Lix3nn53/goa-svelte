@@ -18,7 +18,7 @@
   style="background-image: url('{src}'); top: {top}px; left: {left}px;"
   on:click={toggleCard}
 >
-  <div class="card hidden rounded-lg p-2 bg-base-50/[.8]" bind:this={card}>
+  <div class="card hidden rounded-lg p-2 bg-base-50/[.9]" bind:this={card}>
     <h3 class="text-xl font-bold">{name}</h3>
     <div class="text-sm">
       <p class="font-semibold pb-4">
@@ -46,16 +46,15 @@
 
   .point:hover .card {
     display: block;
-    z-index: 3;
     overflow-y: auto;
   }
   .card {
     width: 215px;
     height: auto;
-    min-height: 215px;
     color: rgb(var(--color-base-900));
     position: relative;
     margin-left: 48px;
     margin-top: 16px;
+    z-index: 3;
   }
 </style>
