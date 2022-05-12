@@ -30,10 +30,10 @@
   src="/img/guide/classes/fire_mage/icon.png"
   weapons={["Wand", "Staff", "Dagger", "WarHammer"]}
   armors={["Cloth", "Feather", "Light"]}
-  health={7}
-  mana={2}
+  health={4}
+  mana={6}
   damage={9}
-  defense={5}
+  defense={4}
   crit_chance={2}
 />
 <h2 class="text-xl font-semibold pb-2 pt-8">Skill Tree</h2>
