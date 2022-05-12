@@ -176,11 +176,105 @@
       "p2": "Aksesuarları RPG Envanterinizden kuşanabilirsiniz."
     },
     "enchanting": {
-      "p0": "Bir eşyayı efsunlamak, basitçe fazladan nitelik ekleyerek yükseltmektir. Hasarı arttırmak için silahını, maksimum canını arttırmak için kalkan ve zırhlarını efsunlayabilirsin.",
+      "p0": "Bir eşyayı efsunlamak, basitçe fazladan nitelik ekleyerek yükseltmektir. Hasarı arttırmak için silahını, maksimum canını arttırmak için kalkan ve zırhlarını, statülerini arttırmak için takılarını efsunlayabilirsin.",
       "h1": "Efsun Taşları",
       "p1": "Efsunlamak için bir adet efsun taşı gerekir. Efsun taşları 4 kademeden oluşur. Her kademe 3 seviye için kullanılır. Yani 4 * 3, eşyaların en çok +12 efsun seviyesine yükseltilebilir.",
       "h2": "Nasıl efsunlanır?",
       "p2": "Efsunlamak için, efsun taşına ve efsunlamak istediğin bir ekipman parçasına ihtiyacın var. Bu bir silah, bir kalkan veya bir zırh parçası olmalı. Ekipmanını efsunlamak için bir silah veya zırh ustasına gitmelisin."
+    },
+
+    "gearset": {
+      "p0": "Equipments have a chance to have a gearset. Gearsets give bonus effects when used together.",
+      "common": "Gearsets at Common item tier",
+      "rare": "Gearsets at Rare item tier",
+      "mythic": "Gearsets at Mythic item tier",
+      "legendary": "Gearsets at Legendary item tier",
+      "piece": "pieces",
+      "name": "Name",
+      "set1": {
+        "name": "Burning",
+        "effect2": "Fire element +10%",
+        "effect3": "Fire element +10%",
+        "effect4": "Fire element +10%",
+        "effect5": "Fire element +10%"
+      },
+      "set2": {
+        "name": "Tidal",
+        "effect2": "Water element +10%",
+        "effect3": "Water element +10%",
+        "effect4": "Water element +10%",
+        "effect5": "Water element +10%"
+      },
+      "set3": {
+        "name": "Granite",
+        "effect2": "Earth element +10%",
+        "effect3": "Earth element +10%",
+        "effect4": "Earth element +10%",
+        "effect5": "Earth element +10%"
+      },
+      "set4": {
+        "name": "Thundering",
+        "effect2": "Lightning element +10%",
+        "effect3": "Lightning element +10%",
+        "effect4": "Lightning element +10%",
+        "effect5": "Lightning element +10%"
+      },
+      "set5": {
+        "name": "Windy",
+        "effect2": "Air element +10%",
+        "effect3": "Air element +10%",
+        "effect4": "Air element +10%",
+        "effect5": "Air element +10%"
+      },
+      "set6": {
+        "name": "Lucky",
+        "effect2": "Critical chance +10%",
+        "effect3": "Critical chance +10%",
+        "effect4": "Critical chance +10%",
+        "effect5": "Critical chance +10%"
+      },
+      "set7": {
+        "name": "Fury",
+        "effect2": "Critical damage +20%",
+        "effect3": "Critical damage +20%",
+        "effect4": "Critical damage +20%",
+        "effect5": "Critical damage +20%"
+      },
+      "set8": {
+        "name": "Vampiric",
+        "effect2": "Lifesteal +10%",
+        "effect3": "Lifesteal +10%",
+        "effect4": "Lifesteal +10%",
+        "effect5": "Lifesteal +10%"
+      },
+      "set9": {
+        "name": "Tough",
+        "effect2": "Knockback resistance +70%",
+        "effect3": "-",
+        "effect4": "-",
+        "effect5": "-"
+      },
+      "set10": {
+        "name": "Quick",
+        "effect2": "Attack speed +20%",
+        "effect3": "Attack speed +20%",
+        "effect4": "Attack speed +20%",
+        "effect5": "Attack speed +20%"
+      },
+      "set11": {
+        "name": "Arcane",
+        "effect2": "Ability haste +20",
+        "effect3": "Ability haste +20",
+        "effect4": "Ability haste +20",
+        "effect5": "Ability haste +20"
+      },
+      "set12": {
+        "name": "Swift",
+        "effect2": "Movement speed +20%",
+        "effect3": "Movement speed +20%",
+        "effect4": "Movement speed +20%",
+        "effect5": "Movement speed +20%"
+      }
     }
   }
 }

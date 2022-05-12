@@ -58,6 +58,10 @@ export const guideRoutes = [
         name: "Enchanting",
         route: "/guide/items/enchanting",
       },
+      {
+        name: "Gear Sets",
+        route: "/guide/items/gear-sets",
+      },
     ],
     collapseTree: true,
   },
