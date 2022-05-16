@@ -31,10 +31,11 @@
   weapons={["Wand", "Staff", "Dagger", "WarHammer"]}
   armors={["Cloth", "Feather", "Light"]}
   health={4}
-  mana={6}
+  mana={7}
   damage={9}
   defense={4}
   crit_chance={2}
+  crit_damage={4}
 />
 <h2 class="text-xl font-semibold pb-2 pt-8">Skill Tree</h2>
 <Dragable startY={400}>

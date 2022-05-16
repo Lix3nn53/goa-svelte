@@ -98,36 +98,6 @@
         "item.guide.gearset.set9.effect5"
       ),
     },
-    {
-      [$_("item.guide.gearset.name")]: $_("item.guide.gearset.set10.name"),
-      [`2 ${$_("item.guide.gearset.piece")}`]: $_(
-        "item.guide.gearset.set10.effect2"
-      ),
-      [`3 ${$_("item.guide.gearset.piece")}`]: $_(
-        "item.guide.gearset.set10.effect3"
-      ),
-      [`4 ${$_("item.guide.gearset.piece")}`]: $_(
-        "item.guide.gearset.set10.effect4"
-      ),
-      [`5 ${$_("item.guide.gearset.piece")}`]: $_(
-        "item.guide.gearset.set10.effect5"
-      ),
-    },
-    {
-      [$_("item.guide.gearset.name")]: $_("item.guide.gearset.set12.name"),
-      [`2 ${$_("item.guide.gearset.piece")}`]: $_(
-        "item.guide.gearset.set12.effect2"
-      ),
-      [`3 ${$_("item.guide.gearset.piece")}`]: $_(
-        "item.guide.gearset.set12.effect3"
-      ),
-      [`4 ${$_("item.guide.gearset.piece")}`]: $_(
-        "item.guide.gearset.set12.effect4"
-      ),
-      [`5 ${$_("item.guide.gearset.piece")}`]: $_(
-        "item.guide.gearset.set12.effect5"
-      ),
-    },
   ];
 
   const mythicData = [
@@ -180,18 +150,18 @@
       ),
     },
     {
-      [$_("item.guide.gearset.name")]: $_("item.guide.gearset.set11.name"),
+      [$_("item.guide.gearset.name")]: $_("item.guide.gearset.set10.name"),
       [`2 ${$_("item.guide.gearset.piece")}`]: $_(
-        "item.guide.gearset.set11.effect2"
+        "item.guide.gearset.set10.effect2"
       ),
       [`3 ${$_("item.guide.gearset.piece")}`]: $_(
-        "item.guide.gearset.set11.effect3"
+        "item.guide.gearset.set10.effect3"
       ),
       [`4 ${$_("item.guide.gearset.piece")}`]: $_(
-        "item.guide.gearset.set11.effect4"
+        "item.guide.gearset.set10.effect4"
       ),
       [`5 ${$_("item.guide.gearset.piece")}`]: $_(
-        "item.guide.gearset.set11.effect5"
+        "item.guide.gearset.set10.effect5"
       ),
     },
   ];

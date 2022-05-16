@@ -35,6 +35,7 @@
   damage={6}
   defense={4}
   crit_chance={7}
+  crit_damage={5}
 />
 <h2 class="text-xl font-semibold pb-2 pt-8">Skill Tree</h2>
 <Dragable startY={400}>

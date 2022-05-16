@@ -30,11 +30,12 @@
   src="/img/guide/classes/paladin/icon.png"
   weapons={["Wand", "Staff", "Sword", "GreatSword", "WarHammer"]}
   armors={["Heavy", "Plate", "Light", "Cloth", "Shield"]}
-  health={7}
-  mana={4}
+  health={8}
+  mana={5}
   damage={5}
-  defense={7}
+  defense={8}
   crit_chance={2}
+  crit_damage={2}
 />
 <h2 class="text-xl font-semibold pb-2 pt-8">Skill Tree</h2>
 <Dragable startY={400}>

@@ -16,7 +16,7 @@
       "damage": "Temel hasar, elementleri eklemeden önce",
       "defense": "Temel savunma, elementleri eklemeden önce",
       "crit_chance": "Hasarınızı kritik hasarla katlama şansı",
-      "crit_damage": "Temel değer 150%, bazı yetenekler ve setler ile arttırılabilir.",
+      "crit_damage": "Temel değer 120%, bazı yetenekler ve setler ile arttırılabilir.",
       "ability_haste": "Yeteneklerinizin bekleme süresini azaltır. Formül: 100 / (100 + yetenekBeklemeSüresi)"
     },
     "h2": "Elementler",

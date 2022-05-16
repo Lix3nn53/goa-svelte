@@ -252,27 +252,20 @@
         "effect5": "Lifesteal +10%"
       },
       "set9": {
-        "name": "Tough",
-        "effect2": "Knockback resistance +70%",
-        "effect3": "-",
-        "effect4": "-",
-        "effect5": "-"
-      },
-      "set10": {
         "name": "Quick",
         "effect2": "Attack speed +20%",
         "effect3": "Attack speed +20%",
         "effect4": "Attack speed +20%",
         "effect5": "Attack speed +20%"
       },
-      "set11": {
+      "set10": {
         "name": "Arcane",
         "effect2": "Ability haste +20",
         "effect3": "Ability haste +20",
         "effect4": "Ability haste +20",
         "effect5": "Ability haste +20"
       },
-      "set12": {
+      "set11": {
         "name": "Swift",
         "effect2": "Movement speed +20%",
         "effect3": "Movement speed +20%",

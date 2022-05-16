@@ -16,7 +16,7 @@
       "damage": "Base damage, before adding elements",
       "defense": "Base defense, before adding elements",
       "crit_chance": "Chance to multiply your damage with critical damage",
-      "crit_damage": "Base value is 150%, can be increased with some skills or gear sets.",
+      "crit_damage": "Base value is 120%, can be increased with some skills or gear sets.",
       "ability_haste": "Reduces cooldown of your skills. Formula: 100 / (100 + abilityHaste)"
     },
     "h2": "Elements",

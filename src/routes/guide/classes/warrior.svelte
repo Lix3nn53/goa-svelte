@@ -30,11 +30,12 @@
   src="/img/guide/classes/fighter/icon.png"
   weapons={["Battleaxe", "GreatSword", "Sword", "WarHammer", "Spear"]}
   armors={["Heavy", "Plate", "Light", "Shield"]}
-  health={7}
+  health={8}
   mana={2}
   damage={7}
   defense={7}
   crit_chance={2}
+  crit_damage={4}
 />
 <h2 class="text-xl font-semibold pb-2 pt-8">Skill Tree</h2>
 <Dragable startY={480}>

@@ -9,6 +9,7 @@
   export let damage: number = 0;
   export let defense: number = 0;
   export let crit_chance: number = 0;
+  export let crit_damage: number = 0;
 </script>
 
 <div class="flex flex-col">
@@ -46,6 +47,10 @@
     <div class="flex flex-row gap-2">
       <p>Critical Chance:</p>
       <p>{crit_chance}</p>
+    </div>
+    <div class="flex flex-row gap-2">
+      <p>Critical Damage:</p>
+      <p>{crit_damage}</p>
     </div>
   </div>
 </div>
