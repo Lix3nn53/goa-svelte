@@ -29,10 +29,10 @@
 
   let routes;
   $: routes = [
-    $_("header.guide"),
-    $_("header.news"),
-    $_("header.map"),
-    $_("header.store"),
+    { name: $_("header.guide"), path: "guide" },
+    { name: $_("header.news"), path: "news" },
+    { name: $_("header.map"), path: "map" },
+    { name: $_("header.store"), path: "store" },
   ];
 
   let navigation;
@@ -124,16 +124,16 @@
         {#each routes as route, i}
           {#if path === route}
             <li class="py-4 md:py-0 text-right">
-              <LinkButton href={`/${route}`} style="ghost"
+              <LinkButton href={`/${route.path}`} style="ghost"
                 ><span class="capitalize text-primary-400 font-semibold"
-                  >{route}</span
+                  >{route.name}</span
                 ></LinkButton
               >
             </li>
           {:else}
             <li class="py-4 md:py-0">
-              <LinkButton href={`/${route}`} style="ghost"
-                ><span class="capitalize">{route}</span></LinkButton
+              <LinkButton href={`/${route.path}`} style="ghost"
+                ><span class="capitalize">{route.name}</span></LinkButton
               >
             </li>
           {/if}
