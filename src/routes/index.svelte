@@ -48,6 +48,18 @@
       </div>
     </div>
   </div>
+  <section class="container py-4">
+    <Saos animation={"fade-in 1.6s cubic-bezier(0.5, 0.25, 0.8, 0.7) both"}>
+      <iframe
+        class="mx-auto w-full xl:w-1/2 lg:w-3/4 h-96"
+        src="https://www.youtube.com/embed/-dMbjAkhrBw"
+        title="Trailer Video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      />
+    </Saos>
+  </section>
   <!-- Section 2 -->
   <section
     class="container mx-auto px-6 py-16 flex flex-col lg:flex-row lg:gap-8"
